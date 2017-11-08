@@ -1,0 +1,39 @@
+﻿@using TaiKang.Web.Navigation
+@using Abp.Web.Mvc.Extensions
+@using TaiKang.Authorization
+@model TaiKang.Web.Areas.Mpa.Models.Banner.IndexViewModel
+@{
+    ViewBag.CurrentPageName = PageNames.App.Management.BannerManager;
+}
+
+@section Scripts
+{
+    <script src="/api/AbpServiceProxies/GetAll" type="text/javascript"></script>
+    @Html.IncludeScript("~/Areas/Mpa/Views/BannerManager/Index.js")
+}
+
+<div class="row margin-bottom-5">
+    <div class="col-xs-6">
+        <div class="page-head">
+            <div class="page-title">
+                <h1>
+                    <span>@L("TaiKang_BannerManager")</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 text-right">
+        @if (IsGranted(AppPermissions.Pages_TaiKang_BannerManager_Create))
+        {
+            <button id="CreateNewBannerButton" class="btn btn-primary blue"><i class="fa fa-plus"></i> @L("Create")</button>
+        }
+    </div>
+</div>
+
+<div class="portlet light">
+    <div class="portlet-body">
+
+    </div>
+    <div id="BannersTable"></div>
+</div>
+

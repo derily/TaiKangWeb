@@ -1,0 +1,28 @@
+﻿@using TaiKang.Web.Areas.Mpa.Models.Common.Modals
+@using TaiKang.Tk.Dto
+@using Abp.Web.Mvc.Extensions
+@model TaiKang.Web.Areas.Mpa.Models.Banner.CreateOrEditModalViewModel
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? "编辑Banner" :"创建Banner"))
+
+@Html.IncludeScript("~/libs/jquery-file-upload/js/vendor/jquery.ui.widget.js")
+@Html.IncludeScript("~/libs/jquery-file-upload/js/jquery.fileupload.js")
+<div class="modal-body">
+    <form role="form" novalidate class="form-validation">
+        @Html.HiddenFor(x=>x.Id)
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input class="form-control" type="text" name="BannerTitle" value="@Model.BannerTitle" required>
+            <label>轮播图名称</label>
+        </div>
+
+        <div class="form-group">
+            <input type="file" name="Image" id="Image" required>
+            <input type="hidden" name="BannerImage" id="BannerImage" value="" />
+        </div>
+
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input type="checkbox" name="Enabled" value="true" @Html.Raw(Model.Enabled? "checked=\"checked\"" : "")>
+            <label>是否启用</label>
+        </div>
+    </form>
+</div>
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")
