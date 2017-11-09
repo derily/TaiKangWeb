@@ -26,6 +26,16 @@
         public const string Pages_TaiKang_JobChance_Edit = "Pages_TaiKang_JobChance_Edit";
         public const string Pages_TaiKang_JobChance_Delete = "Pages_TaiKang_JobChance_Delete";
 
+        public const string Pages_TaiKang_Contents = "Pages_TaiKang_Contents";
+        public const string Pages_TaiKang_Contents_Create = "Pages_TaiKang_Contents_Create";
+        public const string Pages_TaiKang_Contents_Edit = "Pages_TaiKang_Contents_Edit";
+        public const string Pages_TaiKang_Contents_Delete = "Pages_TaiKang_Contents_Delete";
+
+        public const string Pages_TaiKang_Products = "Pages_TaiKang_Products";
+        public const string Pages_TaiKang_Products_Create = "Pages_TaiKang_Products_Create";
+        public const string Pages_TaiKang_Products_Edit = "Pages_TaiKang_Products_Edit";
+        public const string Pages_TaiKang_Products_Delete = "Pages_TaiKang_Products_Delete";
+
 
         public const string Pages_Administration = "Pages.Administration";
 

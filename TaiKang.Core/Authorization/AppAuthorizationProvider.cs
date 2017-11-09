@@ -47,6 +47,16 @@ namespace TaiKang.Authorization
             jobchance.CreateChildPermission(AppPermissions.Pages_TaiKang_JobChance_Edit, L("EditJobChance"));
             jobchance.CreateChildPermission(AppPermissions.Pages_TaiKang_JobChance_Delete, L("DeleteJobChance"));
 
+            var contents = taikang.CreateChildPermission(AppPermissions.Pages_TaiKang_Contents, L("TaiKang_Contents"));
+            contents.CreateChildPermission(AppPermissions.Pages_TaiKang_Contents_Create, L("CreateJobChance"));
+            contents.CreateChildPermission(AppPermissions.Pages_TaiKang_Contents_Edit, L("EditJobChance"));
+            contents.CreateChildPermission(AppPermissions.Pages_TaiKang_Contents_Delete, L("DeleteJobChance"));
+
+            var products = taikang.CreateChildPermission(AppPermissions.Pages_TaiKang_Products, L("TaiKang_Products"));
+            products.CreateChildPermission(AppPermissions.Pages_TaiKang_Products_Create, L("CreateProduct"));
+            products.CreateChildPermission(AppPermissions.Pages_TaiKang_Products_Edit, L("EditProduct"));
+            products.CreateChildPermission(AppPermissions.Pages_TaiKang_Products_Delete, L("DeleteProduct"));
+
 
             var roles = administration.CreateChildPermission(AppPermissions.Pages_Administration_Roles, L("Roles"));
             roles.CreateChildPermission(AppPermissions.Pages_Administration_Roles_Create, L("CreatingNewRole"));

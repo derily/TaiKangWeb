@@ -402,6 +402,22 @@
     <Compile Include="Migrations\201711080545522_Add_JobChance_table.Designer.cs">
       <DependentUpon>201711080545522_Add_JobChance_table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711090353488_Add_ClassifiedContent_Table.cs" />
+    <Compile Include="Migrations\201711090353488_Add_ClassifiedContent_Table.Designer.cs">
+      <DependentUpon>201711090353488_Add_ClassifiedContent_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711090541044_Add_Product_Table.cs" />
+    <Compile Include="Migrations\201711090541044_Add_Product_Table.Designer.cs">
+      <DependentUpon>201711090541044_Add_Product_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711090733232_Add_Material_Table.cs" />
+    <Compile Include="Migrations\201711090733232_Add_Material_Table.Designer.cs">
+      <DependentUpon>201711090733232_Add_Material_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711090737102_Rename_ProductMaterial_Table_Schema.cs" />
+    <Compile Include="Migrations\201711090737102_Rename_ProductMaterial_Table_Schema.Designer.cs">
+      <DependentUpon>201711090737102_Rename_ProductMaterial_Table_Schema.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Seed\Management\DefaultBannerCreator.cs" />
     <Compile Include="Migrations\Seed\Management\DefaultCompanyIntroCreator.cs" />
@@ -614,6 +630,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711080545522_Add_JobChance_table.resx">
       <DependentUpon>201711080545522_Add_JobChance_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711090353488_Add_ClassifiedContent_Table.resx">
+      <DependentUpon>201711090353488_Add_ClassifiedContent_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711090541044_Add_Product_Table.resx">
+      <DependentUpon>201711090541044_Add_Product_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711090733232_Add_Material_Table.resx">
+      <DependentUpon>201711090733232_Add_Material_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711090737102_Rename_ProductMaterial_Table_Schema.resx">
+      <DependentUpon>201711090737102_Rename_ProductMaterial_Table_Schema.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

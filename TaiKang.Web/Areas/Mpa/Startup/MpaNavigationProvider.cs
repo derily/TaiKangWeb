@@ -37,6 +37,20 @@ namespace TaiKang.Web.Areas.Mpa.Startup
                             icon:"",
                             requiredPermissionName:AppPermissions.Pages_TaiKang_JobChance
                        ) 
+                   ).AddItem(new MenuItemDefinition(
+                            PageNames.App.Management.Contents,
+                            L("TaiKang_Contents"),
+                            url:"Mpa/ClassifiedContent",
+                            icon:"",
+                            requiredPermissionName:AppPermissions.Pages_TaiKang_Contents
+                       )
+                   ).AddItem(new MenuItemDefinition(
+                            PageNames.App.Management.Products,
+                            L("TaiKang_Products"),
+                            url:"Mpa/Product",
+                            icon:"",
+                            requiredPermissionName:AppPermissions.Pages_TaiKang_Products
+                       )
                    )
                 ).AddItem(new MenuItemDefinition(
                     PageNames.App.Host.Tenants,

@@ -2,18 +2,28 @@
 <localizationDictionary culture="en">
   <texts>
     <text name="TaiKang" value="泰康"/>
-    <text name="TaiKang_CompanyIntroduce" value="简介"/>
-    <text name="TaiKang_BannerManager" value="Banner管理"/>
+    <text name="TaiKang_CompanyIntroduce" value="公司简介"/>
+    <text name="TaiKang_BannerManager" value="横幅管理"/>
     <text name="IntroduceEdit" value="编辑简介"/>
 
-    <text name="CreateBanner" value="创建Banner"/>
-    <text name="EditBanner" value="编辑Banner"/>
-    <text name="DeleteBanner" value="删除Banner"/>
+    <text name="CreateBanner" value="创建横幅"/>
+    <text name="EditBanner" value="编辑横幅"/>
+    <text name="DeleteBanner" value="删除横幅"/>
+    <text name="BannerDeleteWarningMessage" value="标题为 {0} 的横幅将被删除." />
 
     <text name="TaiKang_JobChance" value="人员招聘"/>
     <text name="CreateJobChance" value="发布岗位"/>
     <text name="EditJobChance" value="编辑岗位"/>
     <text name="DeleteJobChance" value="删除岗位"/>
+
+    <text name="TaiKang_Contents" value="图文内容"/>
+    <text name="TaiKang_Contents_Detail" value="自定义部分图文内容"/>
+
+    <text name="TaiKang_Products" value="商品管理"/>
+    <text name="TaiKang_Products_Detail" value="维护网站商品"/>
+    <text name="CreateProduct" value="添加商品"/>
+    <text name="EditProduct" value="编辑商品"/>
+    <text name="DeleteProduct" value="删除商品"/>
     
     <text name="Create" value="创建"/>
     <text name="Edit" value="编辑"/>

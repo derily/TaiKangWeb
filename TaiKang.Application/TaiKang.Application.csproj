@@ -303,17 +303,23 @@
     <Compile Include="Timing\TimingAppService.cs" />
     <Compile Include="Tk\BannerAppService.cs" />
     <Compile Include="Tk\BannerAppService_.cs" />
+    <Compile Include="Tk\ClassifiedContentAppService.cs" />
     <Compile Include="Tk\Dto\BannerDto.cs" />
+    <Compile Include="Tk\Dto\ClassifiedContentDto.cs" />
     <Compile Include="Tk\Dto\CreateOrUpdateJobInput.cs" />
     <Compile Include="Tk\Dto\GetAllBannerInput.cs" />
     <Compile Include="Tk\Dto\GetJobForEditOutput.cs" />
     <Compile Include="Tk\Dto\GetJobsInput.cs" />
     <Compile Include="Tk\Dto\JobChanceListDto.cs" />
     <Compile Include="Tk\Dto\JobEditDto.cs" />
+    <Compile Include="Tk\Dto\ProductDto.cs" />
     <Compile Include="Tk\IBannerAppService.cs" />
     <Compile Include="Tk\IBannerAppService_.cs" />
-    <Compile Include="Tk\IJobChanceService.cs" />
-    <Compile Include="Tk\JobChanceService.cs" />
+    <Compile Include="Tk\IClassifiedContentAppService.cs" />
+    <Compile Include="Tk\IJobChanceAppService.cs" />
+    <Compile Include="Tk\IProductAppService.cs" />
+    <Compile Include="Tk\JobChanceAppService.cs" />
+    <Compile Include="Tk\ProductAppService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">

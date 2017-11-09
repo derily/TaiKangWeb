@@ -535,10 +535,14 @@
     <Content Include="Areas\Mpa\Common\Scripts\readme.txt" />
     <Content Include="Areas\Mpa\Views\BannerManager\Index.js" />
     <Content Include="Areas\Mpa\Views\BannerManager\_CreateOrEditBannerModal.js" />
+    <Content Include="Areas\Mpa\Views\ClassifiedContent\Index.js" />
+    <Content Include="Areas\Mpa\Views\ClassifiedContent\_CreateOrEditContentModal.js" />
     <Content Include="Areas\Mpa\Views\CompanyIntroduce\Index.css" />
     <Content Include="Areas\Mpa\Views\CompanyIntroduce\Index.js" />
     <Content Include="Areas\Mpa\Views\Job\Index.js" />
     <Content Include="Areas\Mpa\Views\Job\_CreateOrEditModal.js" />
+    <Content Include="Areas\Mpa\Views\Product\Index.js" />
+    <Content Include="Areas\Mpa\Views\Product\_CreateOrEditProductModal.js" />
     <Content Include="Common\Images\app-logo-small.png" />
     <Content Include="Common\Images\logo.png" />
     <Content Include="Common\Scripts\jquery-validation-custom.js" />
@@ -769,6 +773,8 @@
     <Content Include="libs\angular-ui-grid\ui-grid.svg" />
     <Content Include="libs\bootstrap-daterangepicker\daterangepicker.css" />
     <Content Include="libs\bootstrap-daterangepicker\daterangepicker.js" />
+    <Content Include="libs\bootstrap-fileinput\bootstrap-fileinput.css" />
+    <Content Include="libs\bootstrap-fileinput\bootstrap-fileinput.js" />
     <Content Include="libs\bootstrap-hover-dropdown\bootstrap-hover-dropdown.js" />
     <Content Include="libs\bootstrap-hover-dropdown\bootstrap-hover-dropdown.min.js" />
     <Content Include="libs\bootstrap-select\bootstrap-select.css" />
@@ -2343,6 +2349,10 @@
     <Content Include="libs\jquery-file-upload\server\php\files\.htaccess" />
     <Content Include="Areas\Mpa\Views\Job\Index.cshtml" />
     <Content Include="Areas\Mpa\Views\Job\_CreateOrEditModal.cshtml" />
+    <Content Include="Areas\Mpa\Views\ClassifiedContent\Index.cshtml" />
+    <Content Include="Areas\Mpa\Views\ClassifiedContent\_CreateOrEditContentModal.cshtml" />
+    <Content Include="Areas\Mpa\Views\Product\Index.cshtml" />
+    <Content Include="Areas\Mpa\Views\Product\_CreateOrEditProductModal.cshtml" />
     <None Include="Properties\PublishProfiles\aspnetzero - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />
@@ -3110,12 +3120,18 @@
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Mpa\Controllers\ClassifiedContentController.cs" />
     <Compile Include="Areas\Mpa\Controllers\CompanyIntroduceController.cs" />
     <Compile Include="Areas\Mpa\Controllers\BannerManagerController.cs" />
     <Compile Include="Areas\Mpa\Controllers\JobController.cs" />
+    <Compile Include="Areas\Mpa\Controllers\ProductController.cs" />
     <Compile Include="Areas\Mpa\Models\Banner\CreateOrEditModalViewModel.cs" />
     <Compile Include="Areas\Mpa\Models\Banner\IndexViewModel.cs" />
+    <Compile Include="Areas\Mpa\Models\ClassifiedContent\CreateOrEditModalViewModel.cs" />
+    <Compile Include="Areas\Mpa\Models\ClassifiedContent\IndexViewModel.cs" />
     <Compile Include="Areas\Mpa\Models\Jobs\CreateOrEditJobModalViewModel.cs" />
+    <Compile Include="Areas\Mpa\Models\Product\CreateOrEditModalViewModel.cs" />
+    <Compile Include="Areas\Mpa\Models\Product\IndexViewModel.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Models\Layout\TenantCustomCssViewModel.cs" />
     <Compile Include="Areas\Mpa\Startup\UserMenuItemExtensions.cs" />

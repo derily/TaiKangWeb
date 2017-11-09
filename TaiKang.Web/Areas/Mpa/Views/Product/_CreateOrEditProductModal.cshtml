@@ -1,0 +1,60 @@
+﻿@using TaiKang.Web.Areas.Mpa.Models.Common.Modals
+@using TaiKang.Tk.Dto
+@using Abp.Web.Mvc.Extensions
+@using Abp.Extensions
+@model TaiKang.Web.Areas.Mpa.Models.Product.CreateOrEditModalViewModel
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? "编辑商品" :"添加商品"))
+
+@Html.IncludeScript("~/libs/jquery-file-upload/js/vendor/jquery.ui.widget.js")
+@Html.IncludeScript("~/libs/jquery-file-upload/js/jquery.fileupload.js")
+
+@Html.IncludeStyle("~/libs/bootstrap-fileinput/bootstrap-fileinput.css")
+
+<div class="modal-body">
+    <form role="form" novalidate class="form-validation">
+        @if (Model.IsEditMode)
+        {
+            @Html.HiddenFor(x => x.Id)
+        }
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input class="form-control@(Model.ProductName.IsNullOrEmpty()? "" : " edited")" type="text" name="ProductName" value="@Model.ProductName" required>
+            <label>商品名称</label>
+        </div>
+
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input class="form-control@(Model.Desc.IsNullOrEmpty()? "" : " edited")" type="text" name="Desc" value="@Model.Desc" required>
+            <label>描述</label>
+        </div>
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input class="form-control@(Model.Functions.IsNullOrEmpty()? "" : " edited")" type="text" name="Functions" value="@Model.Functions" required>
+            <label>功效</label>
+        </div>
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input class="form-control@(Model.BuyLink.IsNullOrEmpty()? "" : " edited")" type="text" name="BuyLink" value="@Model.BuyLink" required>
+            <label>购买地址</label>
+        </div>
+        <div class="form-group">
+                <label class="control-label col-xs-2">默认图片</label>
+                <div class="col-xs-10">
+                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                        <div class="input-group input-large">
+                            <div class="form-control uneditable-input input-fixed input-medium" data-trigger="fileinput">
+                                <i class="fa fa-file fileinput-exists"></i>&nbsp;
+                                <span class="fileinput-filename"> </span>
+                            </div>
+                            <span class="input-group-addon btn default btn-file">
+                                <span class="fileinput-new"> 选择文件 </span>
+                                <span class="fileinput-exists"> 更改 </span>
+                                <input type="file" name="CarouselImg">
+                            </span>
+                            <a href="javascript:;" class="input-group-addon btn red fileinput-exists" data-dismiss="fileinput"> 删除 </a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+    </form>
+</div>
+
+@Html.IncludeScript("~/libs/bootstrap-fileinput/bootstrap-fileinput.js")
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")

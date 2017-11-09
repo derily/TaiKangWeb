@@ -20,6 +20,8 @@ namespace TaiKang.Web.Navigation
                 public const string CompanyIntroduce = "TaiKang.CompanyIntroduce";
                 public const string BannerManager = "TaiKang.BannerManager";
                 public const string JobChance = "TaiKang.JobChance";
+                public const string Contents = "TaiKang.Contents";
+                public const string Products = "TaiKang.Products";
             }
 
             public static class Host

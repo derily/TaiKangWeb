@@ -1,0 +1,26 @@
+﻿@using TaiKang.Web.Areas.Mpa.Models.Common.Modals
+@using TaiKang.Tk.Dto
+@using Abp.Web.Mvc.Extensions
+@model TaiKang.Web.Areas.Mpa.Models.ClassifiedContent.CreateOrEditModalViewModel
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? "编辑图文" :"创建图文"))
+
+@Html.IncludeScript("~/libs/jquery-file-upload/js/vendor/jquery.ui.widget.js")
+@Html.IncludeScript("~/libs/jquery-file-upload/js/jquery.fileupload.js")
+<div class="modal-body">
+    <form role="form" novalidate class="form-validation">
+        @if (Model.IsEditMode)
+        {
+            @Html.HiddenFor(x => x.Id)
+        }
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <label>图文类别</label>
+            @Html.EnumDropDownListFor(x=>x.ClassifyName,null,new { @class="form-control"})
+            
+        </div>
+
+        <div class="form-group">
+            @Html.TextAreaFor(x=>x.Content)
+        </div>
+    </form>
+</div>
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")

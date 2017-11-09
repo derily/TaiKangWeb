@@ -2,11 +2,11 @@
 
 namespace TaiKang.Web.Controllers
 {
-    public class HomeController : TaiKangControllerBase
-    {
-        public ActionResult Index()
-        {
-            return View();
-        }
+	public class HomeController : TaiKangControllerBase
+	{
+		public ActionResult Index()
+		{
+			return View();
+		}
 	}
 }

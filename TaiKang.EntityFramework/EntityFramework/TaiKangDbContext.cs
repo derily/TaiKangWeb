@@ -29,6 +29,12 @@ namespace TaiKang.EntityFramework
 
         public virtual IDbSet<JobChance> Jobs { get; set; }
 
+        public virtual IDbSet<ClassifiedContent> ClassifiedContents { get; set; }
+
+        public virtual IDbSet<Product> Products { get; set; }
+
+        public virtual IDbSet<Material> Materials { get; set; }
+
         public virtual IDbSet<BinaryObject> BinaryObjects { get; set; }
 
         public virtual IDbSet<Friendship> Friendships { get; set; }
@@ -41,11 +47,19 @@ namespace TaiKang.EntityFramework
             
         }
 
-        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        //{
-        //    base.OnModelCreating(modelBuilder);
-        //    modelBuilder.ChangeAbpTablePrefix<Tenant,Role,User>("")
-        //}
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Product>().HasMany<Material>(s => s.Materials)
+                .WithMany(c => c.Products).Map(cs =>
+                {
+                    cs.MapLeftKey("ProductId");
+                    cs.MapRightKey("MaterialId");
+                    cs.ToTable("ProductMaterial","Tk");
+                });
+            //modelBuilder.ChangeAbpTablePrefix<Tenant, Role, User>("")
+        }
 
         public TaiKangDbContext(string nameOrConnectionString)
             : base(nameOrConnectionString)

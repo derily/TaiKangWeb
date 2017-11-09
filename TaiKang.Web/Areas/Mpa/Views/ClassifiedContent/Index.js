@@ -1,12 +1,12 @@
 ﻿(function () {
     $(function () {
-        var _$bannersTable = $('#BannersTable');
-        var _bannerService = abp.services.app.banner;
+        var _$contentsTable = $('#ContentsTable');
+        var _classifiedContentService = abp.services.app.classifiedContent;
 
         var _createOrEditModal = new app.ModalManager({
-            viewUrl: abp.appPath + 'Mpa/BannerManager/CreateBannerModal',
-            scriptUrl: abp.appPath + 'Areas/Mpa/Views/BannerManager/_CreateOrEditBannerModal.js',
-            modalClass: 'CreateBannerModal'
+            viewUrl: abp.appPath + 'Mpa/ClassifiedContent/CreateContentModal',
+            scriptUrl: abp.appPath + 'Areas/Mpa/Views/ClassifiedContent/_CreateOrEditContentModal.js',
+            modalClass: 'CreateContentModal'
         });
 
         var _permissions = {
@@ -15,13 +15,13 @@
             'delete': abp.auth.hasPermission('Pages_TaiKang_BannerManager_Delete')
         };
 
-        _$bannersTable.jtable({
+        _$contentsTable.jtable({
             paging: true,
             sorting: true,
             multiSorting: true,
             actions: {
                 listAction: {
-                    method: _bannerService.getAll
+                    method: _classifiedContentService.getAll
                 }
             },
 
@@ -51,37 +51,16 @@
                                 //    })
                                 //});
                             }
-                        },
-                        {
-                            text: app.localize('Delete'),
-                            visible: function () {
-                                return _permissions.delete;
-                            },
-                            action: function (data) {
-                                deleteBanner(data.record);
-                            }
                         }
                     ]
                 },
-                bannerTitle: {
-                    title: "轮播图标题",
-                    width: '9%',
-                    initialSortingDirection: 'DESC'
+                classifyName: {
+                    title: "图文类别",
+                    width: '9%'
                 },
-                bannerImage: {
-                    title: "图片名称",
+                content: {
+                    title: "内容",
                     width: '10%'
-                },
-                enabled: {
-                    title: "是否启用",
-                    width: '6%',
-                    display: function (data) {
-                        if (data.record.enabled) {
-                            return '<span class="label label-success">' + app.localize('Yes') + '</span>';
-                        } else {
-                            return '<span class="label label-default">' + app.localize('No') + '</span>';
-                        }
-                    }
                 },
                 creationTime: {
                     title: app.localize('CreationTime'),
@@ -93,29 +72,15 @@
             }
         });
 
-        $('#CreateNewBannerButton').click(function () {
+        $('#CreateNewContentButton').click(function () {
             _createOrEditModal.open();
         });
 
-        function deleteBanner(banner) {
-            abp.message.confirm(
-                app.localize('BannerDeleteWarningMessage', banner.bannerTitle),
-                function (isConfirmed) {
-                    if (isConfirmed) {
-                        _bannerService.delete({
-                            id: banner.id
-                        }).done(function () {
-                            getBanners(true);
-                            abp.notify.success(app.localize('SuccessfullyDeleted'));
-                        });
-                    }
-                }
-            );
+        function getContents() {
+            _$contentsTable.jtable('load', {});
         }
+        getContents();
 
-        function getBanners() {
-            _$bannersTable.jtable('load', {});
-        }
-        getBanners();
+
     })
 })();
