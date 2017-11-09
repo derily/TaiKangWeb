@@ -51,7 +51,7 @@
                                 return _permissions.delete;
                             },
                             action: function (data) {
-                                deleteUser(data.record);
+                                deleteJob(data.record);
                             }
                         }]
                 },
@@ -81,13 +81,40 @@
             }
         });
 
+
+        function deleteJob(job) {
+            abp.message.confirm(
+                app.localize('BannerDeleteWarningMessage', job.jobName),
+                function (isConfirmed) {
+                    if (isConfirmed) {
+                        _jobChanceService.deleteJob(job.id).done(function () {
+                            getJobs(true);
+                            abp.notify.success(app.localize('SuccessfullyDeleted'));
+                        });
+                    }
+                }
+            );
+        }
+
         $('#CreateNewJobButton').click(function () {
             _createOrEditModal.open();
         });
 
-        function getJobs() {
-            _$jobsTable.jtable('load', {});
+        abp.event.on('app.createOrEditJobModalSaved', function () {
+            getJobs(true);
+        });
+
+        function getJobs(reload) {
+            if (reload) {
+                _$jobsTable.jtable('reload');
+            } else {
+                _$jobsTable.jtable('load', {});
+            }
         }
+
+        //function getJobs() {
+        //    _$jobsTable.jtable('load', {});
+        //}
 
         getJobs();
 

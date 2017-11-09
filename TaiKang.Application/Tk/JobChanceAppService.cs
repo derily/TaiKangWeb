@@ -54,6 +54,11 @@ namespace TaiKang.Tk
             await _jobRepository.InsertOrUpdateAsync(input.MapTo<JobChance>());
         }
 
+        public async Task DeleteJob(int id)
+        {
+            await _jobRepository.DeleteAsync(id);
+        }
+
         //private Task CreateJobAsync(CreateOrUpdateJobInput input)
         //{
         //    

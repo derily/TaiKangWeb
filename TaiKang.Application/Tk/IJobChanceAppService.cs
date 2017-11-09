@@ -14,5 +14,6 @@ namespace TaiKang.Tk
         Task<PagedResultDto<JobChanceListDto>> GetJobs(GetJobsInput input);
         Task<GetJobForEditOutput> GetJobForEdit(NullableIdDto<int> input);
         Task CreateOrUpdateJob(CreateOrUpdateJobInput input);
+        Task DeleteJob(int id);
     }
 }

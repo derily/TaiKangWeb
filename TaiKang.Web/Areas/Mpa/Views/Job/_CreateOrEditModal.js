@@ -20,7 +20,7 @@
             _jobChanceService.createOrUpdateJob(job).done(function () {
                 abp.notify.info(app.localize('SavedSuccessfully'));
                 _modalManager.close();
-               // abp.event.trigger('app.createOrEditUserModalSaved');
+                abp.event.trigger('app.createOrEditJobModalSaved');
             }).always(function () {
                 _modalManager.setBusy(false);
             });

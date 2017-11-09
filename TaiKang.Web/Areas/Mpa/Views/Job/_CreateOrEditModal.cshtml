@@ -10,18 +10,17 @@
             <input class="form-control" type="text" name="JobName" value="@Model.JobName" required>
             <label for="JobName">职位名称</label>
         </div>
-
-        <div class="form-group">
+        <div class="form-group form-md-line-input">
+            <textarea name="JobDescription" class="form-control" rows="3" placeholder="">@Model.JobDescription</textarea>
             <label for="JobDescription">岗位描述</label>
-            <textarea name="JobDescription">@Model.JobDescription</textarea>
         </div>
         <div class="form-group form-md-line-input">
-            <textarea name="Requirements" class="form-control" rows="3" placeholder=""></textarea>
+            <textarea name="Requirements" class="form-control" rows="3" placeholder="">@Model.Requirements</textarea>
             <label for="Requirements">岗位要求</label>
         </div>
-        <div class="form-group">
+        <div class="form-group form-md-line-input">
+            <textarea name="Responsibilities" class="form-control" rows="3" placeholder="">@Model.Responsibilities</textarea>
             <label for="Responsibilities">岗位职责</label>
-            <textarea name="Responsibilities">@Model.JobDescription</textarea>
         </div>
         <div class="form-group form-md-line-input form-md-floating-label no-hint">
             <input type="checkbox" name="IsActive" value="true" @Html.Raw(Model.IsActive ? "checked=\"checked\"" : "")>

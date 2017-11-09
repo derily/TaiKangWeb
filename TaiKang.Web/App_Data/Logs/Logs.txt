@@ -33889,3 +33889,481 @@ DEBUG 2017-11-09 17:40:24,004 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2017-11-09 17:40:26,962 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0f915c7e-1c84-4200-921e-553a6172c500
 DEBUG 2017-11-09 17:40:27,912 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e943c615-774a-41d4-9beb-cd6acd289c47","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-11-09T09:40:27.9121232Z","Properties":{}}
 DEBUG 2017-11-09 17:40:27,919 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e943c615-774a-41d4-9beb-cd6acd289c47
+DEBUG 2017-11-09 21:36:00,351 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-09 21:36:00,367 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2017-11-09 21:36:00,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.Web.TaiKangWebModule, TaiKang.Web, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.TaiKangDataModule, TaiKang.EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.TaiKangCoreModule, TaiKang.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.TaiKangApplicationModule, TaiKang.Application, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.WebApi.TaiKangWebApiModule, TaiKang.WebApi, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:00,381 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2017-11-09 21:36:00,520 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-09 21:36:00,520 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-09 21:36:00,521 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-09 21:36:00,521 [1    ] o.Configuration.LanguageManagementConfig - Converted TaiKang (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-09 21:36:00,997 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaiKang.EntityFramework.TaiKangDbContext, TaiKang.EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 21:36:02,593 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-09 21:36:02,601 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-09 21:36:02,602 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-09 21:36:02,624 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-09 21:36:02,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaiKang
+DEBUG 2017-11-09 21:36:02,687 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-09 21:36:03,906 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-11-09 21:36:04,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 47 classes define auto mapping attributes
+DEBUG 2017-11-09 21:36:04,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Friendships.Cache.FriendCacheItem
+DEBUG 2017-11-09 21:36:04,143 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.BannerDto
+DEBUG 2017-11-09 21:36:04,143 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.ClassifiedContentDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.CreateOrUpdateJobInput
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.GetJobForEditOutput
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.JobChanceListDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.JobEditDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.ProductDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Friendships.Dto.FriendDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Editions.Dto.EditionEditDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Editions.Dto.FlatFeatureDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Editions.Dto.EditionListDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Chat.Dto.ChatMessageDto
+DEBUG 2017-11-09 21:36:04,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Chat.Dto.ChatUserDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Users.Dto.UserListDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Auditing.Dto.AuditLogListDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2017-11-09 21:36:04,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Product.CreateOrEditModalViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Jobs.CreateOrEditJobModalViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.ClassifiedContent.CreateOrEditModalViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Banner.CreateOrEditModalViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Banner.IndexViewModel
+DEBUG 2017-11-09 21:36:04,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-09 21:36:04,751 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-11-09 21:36:04,771 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-11-09 21:36:04,783 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IBannerAppService' with service name 'app/banner'.
+DEBUG 2017-11-09 21:36:04,784 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IBannerAppService_' with service name 'app/bannerAppService_'.
+DEBUG 2017-11-09 21:36:04,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IClassifiedContentAppService' with service name 'app/classifiedContent'.
+DEBUG 2017-11-09 21:36:04,786 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IJobChanceAppService' with service name 'app/jobChance'.
+DEBUG 2017-11-09 21:36:04,787 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IProductAppService' with service name 'app/product'.
+DEBUG 2017-11-09 21:36:04,787 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-11-09 21:36:04,788 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-11-09 21:36:04,789 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-09 21:36:04,790 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-11-09 21:36:04,791 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-11-09 21:36:04,793 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-09 21:36:04,795 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-11-09 21:36:04,798 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-11-09 21:36:04,799 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-11-09 21:36:04,800 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-11-09 21:36:04,801 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-11-09 21:36:04,801 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-11-09 21:36:04,802 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-11-09 21:36:04,803 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-11-09 21:36:04,804 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-11-09 21:36:04,805 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-11-09 21:36:04,806 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-11-09 21:36:04,807 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-09 21:36:04,808 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-11-09 21:36:04,809 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-09 21:36:04,810 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-11-09 21:36:04,811 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2017-11-09 21:36:14,909 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:36:18,725 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:36:20,887 [12   ] aiKang.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at TaiKang.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\Users\derily\Documents\Visual Studio 2017\Projects\TaiKangWeb\TaiKang.Web\Controllers\AccountController.cs:line 216
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at TaiKang.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\Users\derily\Documents\Visual Studio 2017\Projects\TaiKangWeb\TaiKang.Web\Controllers\AccountController.cs:line 144
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-11-09 21:37:13,321 [28   ] aiKang.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at TaiKang.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\Users\derily\Documents\Visual Studio 2017\Projects\TaiKangWeb\TaiKang.Web\Controllers\AccountController.cs:line 216
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at TaiKang.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\Users\derily\Documents\Visual Studio 2017\Projects\TaiKangWeb\TaiKang.Web\Controllers\AccountController.cs:line 144
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-11-09 21:37:21,987 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:37:37,924 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:37:38,186 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:37:40,859 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:38:04,553 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:38:14,686 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:38:31,236 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+ERROR 2017-11-09 21:38:36,210 [27   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Areas/Mpa/Views/CompanyIntroduce/Index.min.css! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+WARN  2017-11-09 21:38:36,689 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:38:44,058 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:39:04,444 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:39:18,711 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:39:29,831 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+WARN  2017-11-09 21:39:37,499 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+DEBUG 2017-11-09 21:39:39,892 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bf80c105-3cc7-41f7-9cf6-8a051f3d5ba9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T13:39:39.8866398Z","Properties":{}}
+DEBUG 2017-11-09 21:39:39,962 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: bf80c105-3cc7-41f7-9cf6-8a051f3d5ba9
+DEBUG 2017-11-09 21:44:41,358 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: bf80c105-3cc7-41f7-9cf6-8a051f3d5ba9
+WARN  2017-11-09 21:44:41,832 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+DEBUG 2017-11-09 21:45:02,955 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8670046b-2679-48e6-b950-c8f501aaeac8","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T13:45:02.9559023Z","Properties":{}}
+DEBUG 2017-11-09 21:45:02,963 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8670046b-2679-48e6-b950-c8f501aaeac8
+DEBUG 2017-11-09 21:45:46,513 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8670046b-2679-48e6-b950-c8f501aaeac8
+WARN  2017-11-09 21:45:46,996 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'ContactUs' in localization source 'TaiKang'!
+DEBUG 2017-11-09 21:46:08,065 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"256add84-a149-4b6e-b717-5ae05b0133c8","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T13:46:08.0651663Z","Properties":{}}
+DEBUG 2017-11-09 21:46:08,075 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 256add84-a149-4b6e-b717-5ae05b0133c8
+DEBUG 2017-11-09 21:50:13,559 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 256add84-a149-4b6e-b717-5ae05b0133c8
+ERROR 2017-11-09 21:50:32,934 [9    ] nHandling.AbpApiExceptionFilterAttribute - There is no such an entity. Entity type: TaiKang.Tk.Banner, id: 0
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: TaiKang.Tk.Banner, id: 0
+   在 Abp.Domain.Repositories.AbpRepositoryBase`2.Get(TPrimaryKey id)
+   在 Castle.Proxies.Invocations.IRepository`2_Get_28.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.IRepository`1Proxy_5.Get(Int32 id)
+   在 Castle.Proxies.BannerAppServiceProxy.GetEntityById_callback(Int32 id)
+   在 Castle.Proxies.Invocations.CrudAppService`8_GetEntityById.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BannerAppServiceProxy.GetEntityById(Int32 id)
+   在 Abp.Application.Services.CrudAppService`8.Update(TUpdateInput input)
+   在 Castle.Proxies.BannerAppServiceProxy.Update_callback(BannerDto input)
+   在 Castle.Proxies.Invocations.CrudAppService`8_Update.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BannerAppServiceProxy.Update(BannerDto input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_4.Update(BannerDto input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-11-09 21:50:35,153 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6f5ce62b-c007-4680-b656-fb51591ebce6","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T13:50:35.1535412Z","Properties":{}}
+DEBUG 2017-11-09 21:50:35,161 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6f5ce62b-c007-4680-b656-fb51591ebce6
+DEBUG 2017-11-09 21:51:55,753 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6f5ce62b-c007-4680-b656-fb51591ebce6
+DEBUG 2017-11-09 21:52:17,293 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d523052c-4b80-4cf0-bd29-652feec2fb3b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T13:52:17.2930284Z","Properties":{}}
+DEBUG 2017-11-09 21:52:17,301 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d523052c-4b80-4cf0-bd29-652feec2fb3b
+DEBUG 2017-11-09 21:52:40,915 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d523052c-4b80-4cf0-bd29-652feec2fb3b
+DEBUG 2017-11-09 21:53:02,478 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"92c48bb1-9006-4378-81b4-5a985dffc083","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T13:53:02.4783702Z","Properties":{}}
+DEBUG 2017-11-09 21:53:02,490 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 92c48bb1-9006-4378-81b4-5a985dffc083
+DEBUG 2017-11-09 21:54:23,673 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 92c48bb1-9006-4378-81b4-5a985dffc083
+DEBUG 2017-11-09 21:54:45,232 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"586ec9e7-634e-4ee4-b008-be643856bf77","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T13:54:45.2326121Z","Properties":{}}
+DEBUG 2017-11-09 21:54:45,242 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 586ec9e7-634e-4ee4-b008-be643856bf77
+DEBUG 2017-11-09 21:55:46,465 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 586ec9e7-634e-4ee4-b008-be643856bf77
+DEBUG 2017-11-09 21:56:08,082 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2648d443-708c-4f2f-992b-737372191870","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T13:56:08.082709Z","Properties":{}}
+DEBUG 2017-11-09 21:56:08,091 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2648d443-708c-4f2f-992b-737372191870
+DEBUG 2017-11-09 22:08:16,193 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2648d443-708c-4f2f-992b-737372191870
+DEBUG 2017-11-09 22:08:37,894 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d0281fc5-48b2-4c06-bfc2-780154498a83","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:08:37.8945356Z","Properties":{}}
+DEBUG 2017-11-09 22:08:37,912 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d0281fc5-48b2-4c06-bfc2-780154498a83
+DEBUG 2017-11-09 22:08:38,970 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d0281fc5-48b2-4c06-bfc2-780154498a83
+DEBUG 2017-11-09 22:09:00,483 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5510e2e3-6f6e-4397-913c-ba0da5cc6cae","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:09:00.4838319Z","Properties":{}}
+DEBUG 2017-11-09 22:09:00,501 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5510e2e3-6f6e-4397-913c-ba0da5cc6cae
+DEBUG 2017-11-09 22:09:37,786 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5510e2e3-6f6e-4397-913c-ba0da5cc6cae
+DEBUG 2017-11-09 22:09:59,919 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9ab6e818-86f2-41f5-8728-5b031ed31731","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:09:59.9194798Z","Properties":{}}
+DEBUG 2017-11-09 22:09:59,938 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9ab6e818-86f2-41f5-8728-5b031ed31731
+DEBUG 2017-11-09 22:10:15,086 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9ab6e818-86f2-41f5-8728-5b031ed31731
+DEBUG 2017-11-09 22:10:36,925 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"58de2d87-ff92-4530-ac89-c6ec06271c4b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:10:36.9253868Z","Properties":{}}
+DEBUG 2017-11-09 22:10:36,939 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 58de2d87-ff92-4530-ac89-c6ec06271c4b
+DEBUG 2017-11-09 22:17:06,507 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 58de2d87-ff92-4530-ac89-c6ec06271c4b
+DEBUG 2017-11-09 22:17:28,294 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0212c5d1-b311-4ae1-9bb5-771798cf30c7","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:17:28.2949417Z","Properties":{}}
+DEBUG 2017-11-09 22:17:28,307 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0212c5d1-b311-4ae1-9bb5-771798cf30c7
+DEBUG 2017-11-09 22:18:02,330 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0212c5d1-b311-4ae1-9bb5-771798cf30c7
+DEBUG 2017-11-09 22:18:24,377 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9cfda9af-9220-4fd7-b4b8-c028231fe6f8","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:18:24.3757921Z","Properties":{}}
+DEBUG 2017-11-09 22:18:24,421 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9cfda9af-9220-4fd7-b4b8-c028231fe6f8
+DEBUG 2017-11-09 22:21:46,470 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9cfda9af-9220-4fd7-b4b8-c028231fe6f8
+DEBUG 2017-11-09 22:22:08,562 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f7ed949d-0b86-4d0b-a257-dee91e5f29ce","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:22:08.5614676Z","Properties":{}}
+DEBUG 2017-11-09 22:22:08,588 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f7ed949d-0b86-4d0b-a257-dee91e5f29ce
+DEBUG 2017-11-09 22:25:06,805 [33   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-09 22:25:06,808 [33   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-09 22:25:06,809 [33   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-09 22:25:06,809 [33   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-09 22:25:17,769 [38   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-09 22:25:17,787 [38   ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2017-11-09 22:25:17,807 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.Web.TaiKangWebModule, TaiKang.Web, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,810 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,810 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,811 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,811 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,811 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,811 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,812 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,812 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.TaiKangDataModule, TaiKang.EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,812 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,813 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,813 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,813 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.TaiKangCoreModule, TaiKang.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,813 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,813 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,814 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.TaiKangApplicationModule, TaiKang.Application, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,814 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: TaiKang.WebApi.TaiKangWebApiModule, TaiKang.WebApi, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,814 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,814 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,815 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,815 [38   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:17,823 [38   ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2017-11-09 22:25:18,267 [38   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-09 22:25:18,267 [38   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-09 22:25:18,267 [38   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-09 22:25:18,267 [38   ] o.Configuration.LanguageManagementConfig - Converted TaiKang (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-09 22:25:18,763 [38   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaiKang.EntityFramework.TaiKangDbContext, TaiKang.EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-09 22:25:20,454 [38   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-09 22:25:20,466 [38   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-09 22:25:20,468 [38   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-09 22:25:20,498 [38   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-09 22:25:20,534 [38   ] Abp.Localization.LocalizationManager     - Initialized localization source: TaiKang
+DEBUG 2017-11-09 22:25:20,629 [38   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-09 22:25:21,487 [38   ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-11-09 22:25:21,626 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 47 classes define auto mapping attributes
+DEBUG 2017-11-09 22:25:21,626 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Friendships.Cache.FriendCacheItem
+DEBUG 2017-11-09 22:25:21,628 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.BannerDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.ClassifiedContentDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.CreateOrUpdateJobInput
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.GetJobForEditOutput
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.JobChanceListDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.JobEditDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Tk.Dto.ProductDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-11-09 22:25:21,629 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Friendships.Dto.FriendDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Editions.Dto.EditionEditDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Editions.Dto.FlatFeatureDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Editions.Dto.EditionListDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Chat.Dto.ChatMessageDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Chat.Dto.ChatUserDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Users.Dto.UserListDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Auditing.Dto.AuditLogListDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2017-11-09 22:25:21,630 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2017-11-09 22:25:21,631 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Product.CreateOrEditModalViewModel
+DEBUG 2017-11-09 22:25:21,631 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Jobs.CreateOrEditJobModalViewModel
+DEBUG 2017-11-09 22:25:21,631 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.ClassifiedContent.CreateOrEditModalViewModel
+DEBUG 2017-11-09 22:25:21,631 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Banner.CreateOrEditModalViewModel
+DEBUG 2017-11-09 22:25:21,631 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Areas.Mpa.Models.Banner.IndexViewModel
+DEBUG 2017-11-09 22:25:21,631 [38   ] Abp.AutoMapper.AbpAutoMapperModule       - TaiKang.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-09 22:25:22,106 [38   ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-11-09 22:25:22,123 [38   ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-11-09 22:25:22,133 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IBannerAppService' with service name 'app/banner'.
+DEBUG 2017-11-09 22:25:22,134 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IBannerAppService_' with service name 'app/bannerAppService_'.
+DEBUG 2017-11-09 22:25:22,135 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IClassifiedContentAppService' with service name 'app/classifiedContent'.
+DEBUG 2017-11-09 22:25:22,136 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IJobChanceAppService' with service name 'app/jobChance'.
+DEBUG 2017-11-09 22:25:22,137 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tk.IProductAppService' with service name 'app/product'.
+DEBUG 2017-11-09 22:25:22,138 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-11-09 22:25:22,139 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-11-09 22:25:22,140 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-09 22:25:22,141 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-11-09 22:25:22,142 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-11-09 22:25:22,143 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-09 22:25:22,143 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-11-09 22:25:22,144 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-11-09 22:25:22,145 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-11-09 22:25:22,146 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-11-09 22:25:22,147 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-11-09 22:25:22,148 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-11-09 22:25:22,149 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-11-09 22:25:22,150 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-11-09 22:25:22,151 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-11-09 22:25:22,152 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-11-09 22:25:22,153 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-11-09 22:25:22,154 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-09 22:25:22,155 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-11-09 22:25:22,156 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-09 22:25:22,157 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-11-09 22:25:22,158 [38   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaiKang.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2017-11-09 22:25:26,257 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"f7ed949d-0b86-4d0b-a257-dee91e5f29ce","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:25:26.0347991Z","Properties":{}}
+DEBUG 2017-11-09 22:25:52,600 [12   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-09 22:25:52,601 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-09 22:25:52,602 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-09 22:25:52,602 [12   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+WARN  2017-11-09 22:26:01,755 [7    ] nHandling.AbpApiExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-11-09 22:26:01,829 [7    ] nHandling.AbpApiExceptionFilterAttribute - There are 1 validation errors:
+WARN  2017-11-09 22:26:01,829 [7    ] nHandling.AbpApiExceptionFilterAttribute - The value '[object Object]' is not valid for Int32. (id)
+DEBUG 2017-11-09 22:26:14,822 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"74fafbb5-1f86-432f-a752-a145aa8c2621","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:26:14.8158808Z","Properties":{}}
+DEBUG 2017-11-09 22:26:14,908 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 74fafbb5-1f86-432f-a752-a145aa8c2621
+DEBUG 2017-11-09 22:36:19,753 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 74fafbb5-1f86-432f-a752-a145aa8c2621
+DEBUG 2017-11-09 22:36:22,450 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0c48f94c-e7f6-4575-a221-00c880923c48","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-11-09T14:36:22.4493508Z","Properties":{}}
+DEBUG 2017-11-09 22:36:22,488 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0c48f94c-e7f6-4575-a221-00c880923c48

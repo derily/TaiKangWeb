@@ -8,7 +8,10 @@
 @Html.IncludeScript("~/libs/jquery-file-upload/js/jquery.fileupload.js")
 <div class="modal-body">
     <form role="form" novalidate class="form-validation">
-        @Html.HiddenFor(x=>x.Id)
+        @if (Model.IsEditMode)
+        {
+            @Html.HiddenFor(x => x.Id)
+        }
         <div class="form-group form-md-line-input form-md-floating-label no-hint">
             <input class="form-control" type="text" name="BannerTitle" value="@Model.BannerTitle" required>
             <label>轮播图名称</label>
