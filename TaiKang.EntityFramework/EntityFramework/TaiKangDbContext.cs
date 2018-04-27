@@ -1,6 +1,7 @@
 ﻿using System.Data.Common;
 using System.Data.Entity;
 using Abp.Zero.EntityFramework;
+using MySql.Data.Entity;
 using TaiKang.Authorization.Roles;
 using TaiKang.Authorization.Users;
 using TaiKang.Chat;
@@ -18,7 +19,7 @@ namespace TaiKang.EntityFramework
      * - constructor(existingConnection,contextOwnsConnection) can be used by ABP if DbContextEfTransactionStrategy is used.
      * See http://www.aspnetboilerplate.com/Pages/Documents/EntityFramework-Integration for more.
      */
-
+    [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class TaiKangDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         /* Define an IDbSet for each entity of the application */
@@ -46,6 +47,8 @@ namespace TaiKang.EntityFramework
         {
             
         }
+
+        
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
